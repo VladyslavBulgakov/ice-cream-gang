@@ -1,57 +1,53 @@
-.massa {
-  background: #fff5f6;
-  padding-top: 39px;
+.advantages {
+    background: #fff5f6;
+    padding-top: 39px;
 }
 
-.massa__list {
-  display: flex;
-  justify-content: center;
+.advantages__list {
+    display: flex;
+    justify-content: center;
 }
 
-.massa__item {
-  width: 330px;
+.advantages__item {
+    width: 330px;
 }
 
-.massa__item:not(:last-child) {
-  margin-right: 30px;
+.advantages__item:not(:last-child) {
+    margin-right: 30px;
 }
 
-.massa__item-one::before {
-  content: '';
-  background-image: url('../images/icecream1.png');
+.advantages__item-one::before {
+    content: url('../images/icecream1.png');
+    display: block;
+    margin-bottom: 40px;
 }
 
-// .massa__item-one::before {
-//   content: url('../images/icecream1.png');
-//   display: block;
-//   margin-bottom: 40px;
-// }
-
-// .massa__item-two::before {
-//   content: url('../images/icecream2.png');
-//   display: block;
-//   margin-bottom: 40px;
-// }
-
-// .massa__item-three::before {
-//   content: url('../images/icecream3.png');
-//   display: block;
-//   margin-bottom: 40px;
-// }
-
-.massa__title {
-  font-family: Titan One;
-  font-size: 58px;
-  line-height: 1.13;
-  letter-spacing: 0.04em;
-
-  color: #d41443;
+.advantages__item-two::before {
+    content: url('../images/icecream2.png');
+    display: block;
+    margin-bottom: 40px;
 }
 
-.massa__text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.75;
-  letter-spacing: 0.02em;
-  color: #000000;
+.advantages__item-three::before {
+    content: url('../images/icecream3.png');
+    display: block;
+    margin-bottom: 40px;
+}
+
+.advantages__title {
+    font-family: Titan One;
+    font-size: 58px;
+    line-height: 1.13;
+    letter-spacing: 0.04em;
+
+    color: #d41443;
+}
+
+.advantages__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 15px;
 }
