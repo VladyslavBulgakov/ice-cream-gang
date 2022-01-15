@@ -1,0 +1,94 @@
+body {
+  background: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.howmade {
+  background: #fff5f6;
+  padding-top: 125px;
+  background-image: url(../images/background-milk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: inherit; */
+}
+
+.howmade-wrap {
+  display: flex;
+  margin-top: 55px;
+}
+
+.howmade__pretitle {
+  font-family: 'Titan One', cursive;
+  font-size: 30px;
+  line-height: 1.13;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffa5ba;
+  text-align: center;
+}
+
+.howmade__title {
+  font-family: 'Titan One', cursive;
+  font-size: 58px;
+  line-height: 1.13;
+  letter-spacing: 0.06em;
+  color: #d41443;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.howmade__picture {
+  width: 516px;
+  height: auto;
+  margin-right: 74px;
+}
+
+.howmade-text-wrap {
+  display: block;
+}
+
+.howmade__text-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: #000000;
+  padding-top: 51px;
+}
+
+.howmade__text-two {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.92;
+  letter-spacing: 0.04em;
+  color: #907e82;
+  margin-top: 35px;
+}
+
+.howmade__button {
+  width: 176px;
+  height: 44px;
+  background: #ffffff;
+  border-style: none;
+  border-radius: 22px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: #d41443;
+  margin-top: 45px;
+}
+
+.howmade__icon {
+  fill: #d41443;
+  margin-left: 14px;
+}
