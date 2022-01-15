@@ -1,0 +1,95 @@
+:root {
+    --primary-text-color: #907e82;
+    --secondary-text-color: #ffffff;
+    --third-text-color: #000000;
+    --accent-color: #d41443;
+
+    --main-bcg-color: #ffb8ca;
+    --second-bcg-color: #fff5f6;
+    --bcg-list-color: #e5e5e5;
+
+    --hero-ring-color: #ffa5ba;
+
+    --icecream-bcg: #ffb8ca;
+    --icecofee-bcg: #f0d1a5;
+    --milkshake-bcg: #c2e297;
+
+    --title-ff: 'Titan One';
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--primary-text-color);
+
+    background-color: var(--bcg-list-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 480px) {
+        max-width: 480px;
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+    }
+    @media screen and (min-width: 1280px) {
+        max-width: 1280px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    max-width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+button {
+    display: block;
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    padding: 0;
+    margin: 0;
+
+    border: transparent;
+}
