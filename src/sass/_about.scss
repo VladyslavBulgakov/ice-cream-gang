@@ -1,10 +1,9 @@
 .about {
-    background: #fff5f6;
+    background: var(--second-bcg-color);
     padding-top: 125px;
     background-image: url(../images/background-milk.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: inherit; */
 }
 
 .about-wrap {
@@ -18,7 +17,7 @@
     line-height: 1.13;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #ffa5ba;
+    color: var(--hero-ring-color);
     text-align: center;
 }
 
@@ -27,7 +26,7 @@
     font-size: 58px;
     line-height: 1.13;
     letter-spacing: 0.06em;
-    color: #d41443;
+    color: var(--accent-color);
     text-transform: uppercase;
     text-align: center;
     margin-top: 15px;
@@ -48,7 +47,7 @@
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: var(--third-text-color);
     padding-top: 51px;
 }
 
@@ -57,24 +56,24 @@
     font-size: 14px;
     line-height: 1.92;
     letter-spacing: 0.04em;
-    color: #907e82;
+    color: var(--primary-text-color);
     margin-top: 35px;
 }
 
 .about__button {
     width: 176px;
     height: 44px;
-    background: #ffffff;
+    background: var(--secondary-text-color);
     border-style: none;
     border-radius: 22px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.31;
-    color: #d41443;
+    color: var(--accent-color);
     margin-top: 45px;
 }
 
 .about__icon {
-    fill: #d41443;
+    color: var(--accent-color);
     margin-left: 14px;
 }
