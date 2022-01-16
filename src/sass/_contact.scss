@@ -1,0 +1,31 @@
+.contact-container {
+    display: flex;
+    padding-top: 132px;
+}
+
+.contact-list__card {
+    width: 459px;
+    height: 243px;
+    margin: 51px 44px 62px 43px;
+}
+
+.contact-list__caption {
+    color: #000000;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.contact-list__desc {
+    font-size: 16px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+}
+
+.contact-list__text {
+    color: #907e82;
+    font-size: 16px;
+    line-height: 183%;
+    letter-spacing: 0.04em;
+}
