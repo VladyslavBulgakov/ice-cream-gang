@@ -4,9 +4,6 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
-@import './base/common.scss';
-@import './base/reset.scss';
 @import './utils/breakpoints.scss';
-@import './components/container.scss';
 @import './layout/footer.scss';
+@import './base';
