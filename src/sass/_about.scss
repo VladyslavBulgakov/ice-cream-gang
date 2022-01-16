@@ -1,14 +1,18 @@
 .about {
     background: var(--second-bcg-color);
     padding-top: 125px;
-    background-image: url(../images/background-milk.png);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .about-wrap {
     display: block;
     margin-top: 26px;
+    background-image: url(../images/about/bg-milk-mob.png);
+    background-repeat: no-repeat;
+    background-position: center bottom 60px;
+    background-size: 320px;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url(../images/about/bg-milk-mob-x2.png);
+    }
     @media screen and (min-width: 1280px) {
         display: flex;
         margin-top: 55px;
