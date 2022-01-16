@@ -7,29 +7,46 @@
 }
 
 .about-wrap {
-    display: flex;
-    margin-top: 55px;
+    display: block;
+    margin-top: 26px;
+    @media screen and (min-width: 1280px) {
+        display: flex;
+        margin-top: 55px;
+    }
 }
 
 .about__pretitle {
     font-family: 'Titan One', cursive;
-    font-size: 30px;
-    line-height: 1.13;
+    font-size: 18px;
+    line-height: 1.16;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--hero-ring-color);
     text-align: center;
+    @media screen and (min-width: 1280px) {
+        font-size: 30px;
+        line-height: 1.13;
+    }
 }
 
 .about__title {
     font-family: 'Titan One', cursive;
-    font-size: 58px;
-    line-height: 1.13;
-    letter-spacing: 0.06em;
+    width: 200px;
+    font-size: 34px;
+    line-height: 1.14;
+    letter-spacing: 0.04em;
     color: var(--accent-color);
     text-transform: uppercase;
-    text-align: center;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    @media screen and (min-width: 1280px) {
+        width: auto;
+        font-size: 58px;
+        line-height: 1.13;
+        letter-spacing: 0.06em;
+    }
 }
 
 .about__picture {
@@ -38,26 +55,33 @@
     margin-right: 74px;
 }
 
-.about-text-wrap {
-    display: block;
+.about__text-wrap {
+    width: 220px;
+    margin-top: 46px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about__text-one {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.75;
-    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.58;
     color: var(--third-text-color);
-    padding-top: 51px;
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 1.75;
+    }
 }
 
 .about__text-two {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.92;
-    letter-spacing: 0.04em;
+    font-size: 12px;
+    line-height: 1.58;
     color: var(--primary-text-color);
-    margin-top: 35px;
+    margin-top: 47px;
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 1.75;
+        margin-top: 35px;
+    }
 }
 
 .about__button {
@@ -67,10 +91,14 @@
     border-style: none;
     border-radius: 22px;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.31;
+    font-size: 14px;
+    line-height: 1.28;
     color: var(--accent-color);
-    margin-top: 45px;
+    margin-top: 47px;
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 1.31;
+    }
 }
 
 .about__icon {
