@@ -1,24 +1,41 @@
 .advantages {
     background: var(--second-bcg-color);
     padding-top: 39px;
-    padding-bottom: 145px;
+    padding-bottom: 97px;
+    @media screen and (min-width: 768px) {
+        padding-top: 66px;
+        padding-bottom: 140px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-top: 39px;
+        padding-bottom: 139px;
+    }
 }
 
 .advantages__list {
     display: block;
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         justify-content: center;
     }
 }
 
 .advantages__item {
-    width: 330px;
+    width: 230px;
     &:not(:last-child) {
         margin: 0 0 38px 0;
+        @media screen and (min-width: 768px) {
+            margin: 0 60px 0 0;
+        }
         @media screen and (min-width: 1280px) {
             margin: 0 30px 0 0;
         }
+    }
+    @media screen and (min-width: 768px) {
+        width: 180px;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 330px;
     }
 }
 
@@ -26,18 +43,36 @@
     content: url('../images/about/icecream1.png');
     display: block;
     margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 36px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 40px;
+    }
 }
 
 .advantages__item-two::before {
     content: url('../images/about/icecream2.png');
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 36px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 40px;
+    }
 }
 
 .advantages__item-three::before {
     content: url('../images/about/icecream3.png');
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 36px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-bottom: 40px;
+    }
 }
 
 .advantages__title {
