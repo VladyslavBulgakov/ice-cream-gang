@@ -1,31 +1,125 @@
 .contact-container {
     display: flex;
-    padding-top: 132px;
+    justify-content: center;
 }
 
 .contact-list__card {
-    width: 459px;
-    height: 243px;
-    margin: 51px 44px 62px 43px;
+    justify-content: center;
+    background-color: var(--second-bcg-color);
+    width: 330px;
+    height: 572px;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding: 51px 44px 62px 43px;
+    &:not(:last-child) {
+        margin-right: 29px;
+    }
 }
 
 .contact-list__caption {
-    color: #000000;
+    color: var(--secondary-text-color);
+    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 186%;
     text-align: center;
     letter-spacing: 0.04em;
+    margin-bottom: 32px;
 }
 
+.caption-truck {
+    background-color: var(--milkshake-bcg);
+    width: 138px;
+}
+
+.caption-cafe {
+    background-color: var(--icecofee-bcg);
+    width: 73px;
+}
 .contact-list__desc {
+    color: var(--third-text-color);
+    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 186%;
     letter-spacing: 0.04em;
+    padding-bottom: 10px;
 }
 
 .contact-list__text {
-    color: #907e82;
+    color: var(--primary-text-color);
+    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 183%;
     letter-spacing: 0.04em;
+}
+
+.contact-list__time {
+    color: var(--fourth-text-color);
+    font-style: 500;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    padding-bottom: 15px;
+}
+
+.decoration-element::before {
+    content: '';
+    width: 234px;
+    height: 0;
+    border: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+}
+
+.contact-list__adress {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 183%;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 86px;
+}
+
+.contact-list__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+.button-locations {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--first-btn-color);
+    color: var(--secondary-text-color);
+    height: 44px;
+    width: 198px;
+    padding-right: 36px;
+    padding-left: 35px;
+}
+
+.button-franchise {
+    display: flex;
+    justify-content: center;
+    background-color: var(--second-btn-color);
+    color: var(--accent-color);
+    height: 44px;
+    width: 180px;
+    padding-right: 40px;
+    padding-left: 39px;
+}
+
+.contact-list__icon {
+    margin-left: 13px;
 }
