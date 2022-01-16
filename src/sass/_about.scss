@@ -9,9 +9,18 @@
     background-image: url(../images/about/bg-milk-mob.png);
     background-repeat: no-repeat;
     background-position: center bottom 60px;
-    background-size: 320px;
+    picture {
+        display: flex;
+        justify-content: center;
+    }
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/about/bg-milk-mob-x2.png);
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        picture {
+            display: block;
+        }
     }
     @media screen and (min-width: 1280px) {
         display: flex;
@@ -27,6 +36,10 @@
     text-transform: uppercase;
     color: var(--hero-ring-color);
     text-align: center;
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.15;
+    }
     @media screen and (min-width: 1280px) {
         font-size: 30px;
         line-height: 1.13;
@@ -45,6 +58,11 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 1.14;
+        width: auto;
+    }
     @media screen and (min-width: 1280px) {
         width: auto;
         font-size: 58px;
@@ -54,8 +72,6 @@
 }
 
 .about__picture {
-    width: 516px;
-    height: auto;
     margin-right: 74px;
 }
 
@@ -64,12 +80,20 @@
     margin-top: 46px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 768px) {
+        width: 340px;
+        margin: 50px 0 0 0;
+    }
 }
 
 .about__text-one {
     font-size: 12px;
     line-height: 1.58;
     color: var(--third-text-color);
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.78;
+    }
     @media screen and (min-width: 1280px) {
         font-size: 16px;
         line-height: 1.75;
@@ -81,6 +105,11 @@
     line-height: 1.58;
     color: var(--primary-text-color);
     margin-top: 47px;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.78;
+        margin-top: 49px;
+    }
     @media screen and (min-width: 1280px) {
         font-size: 16px;
         line-height: 1.75;
@@ -99,9 +128,10 @@
     line-height: 1.28;
     color: var(--accent-color);
     margin-top: 47px;
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 768px) {
         font-size: 16px;
         line-height: 1.31;
+        margin-top: 62px;
     }
 }
 
