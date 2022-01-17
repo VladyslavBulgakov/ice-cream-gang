@@ -1,9 +1,15 @@
 /* Footer */
 
 .footer {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 113px;
     background-color: #fff5f6;
+    @media screen and (min-width: 768px) {
+        padding-top: 158px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 165px;
+    }
 }
 
 .footer-container {
@@ -125,6 +131,7 @@
 
 .footer__copyright {
     padding-top: 22px;
+    padding-bottom: 25px;
     max-width: 150px;
     font-family: DM Sans;
     font-weight: 700;
@@ -135,5 +142,6 @@
         max-width: 100%;
         line-height: 1.86;
         letter-spacing: 0.02em;
+        padding-bottom: 10px;
     }
 }
