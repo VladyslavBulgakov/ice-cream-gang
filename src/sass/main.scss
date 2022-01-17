@@ -4,13 +4,10 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
+@import './header';
 @import './footer.scss';
 @import './base';
 @import './customer-reviews';
-<<<<<<< HEAD
-@import './header';
-=======
 @import './products';
 @import './about';
 @import './advantages.scss';
->>>>>>> main
