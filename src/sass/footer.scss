@@ -1,15 +1,7 @@
 /* Footer */
 
 .footer {
-    padding-top: 113px;
     background-color: #fff5f6;
-    @media screen and (min-width: 768px) {
-        padding-top: 158px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        padding-top: 165px;
-    }
 }
 
 .footer-container {
@@ -81,7 +73,7 @@
     border: none;
     border-radius: 50%;
     background-color: #fea5bb;
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
@@ -142,6 +134,9 @@
         max-width: 100%;
         line-height: 1.86;
         letter-spacing: 0.02em;
+        padding-bottom: 18px;
+    }
+    @media screen and (min-width: 1280px) {
         padding-bottom: 10px;
     }
 }
