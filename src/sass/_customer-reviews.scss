@@ -1,0 +1,146 @@
+.customer-review_padding {
+    padding-top: 80px;
+    padding-bottom: 86px;
+    @media screen and (min-width: 768px) {
+        padding-top: 121px;
+        padding-bottom: 119px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-top: 123px;
+        padding-bottom: 132px;
+    }
+}
+
+//                     --------     SLIDER          -----------
+.customer-review-slider {
+    &__img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 29px;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 19px;
+        }
+        @media screen and (min-width: 1280px) {
+            margin-bottom: 15px;
+        }
+    }
+    &__wrapper {
+        position: relative;
+        max-width: 280px;
+
+        background-color: #fafafa;
+        padding: 43px 66px 26px 57px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-bottom: 30px;
+        @media screen and (min-width: 768px) {
+            max-width: 620px;
+            margin-bottom: 24px;
+        }
+        @media screen and (min-width: 1280px) {
+            max-width: 926px;
+            margin-bottom: 15px;
+        }
+    }
+    &__text {
+        position: relative;
+        font-size: 12px;
+        line-height: 2.58;
+
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            line-height: 2.14;
+        }
+
+        text-align: center;
+
+        color: #000000;
+        background-image: repeating-linear-gradient(
+            hsla(0, 0%, 100%, 0),
+            hsla(0, 0%, 100%, 0) 29px,
+            #e1e1e1 0,
+            #e1e1e1 30px
+        );
+    }
+    &__name-city-wrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    &__name-city {
+        display: block;
+        font-size: 14px;
+        line-height: 1.86;
+
+        color: #000000;
+
+        text-align: center;
+
+        padding-top: 18px;
+        padding-bottom: 30px;
+        @media screen and (min-width: 768px) {
+            padding-bottom: 35px;
+        }
+        @media screen and (min-width: 1280px) {
+            padding-top: 15px;
+        }
+
+        &::before {
+            content: url(/images/icecream-testimonials/ellipse.svg);
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            text-align: center;
+            @media screen and (min-width: 768px) {
+                top: -14px;
+            }
+            @media screen and (min-width: 1280px) {
+                top: -15px;
+            }
+        }
+    }
+}
+
+.customer-review-slider__wrapper::before {
+    content: '';
+    background-image: url(/images/icecream-testimonials/parenthesess.svg);
+    position: absolute;
+    top: 28px;
+    left: 61px;
+
+    width: 54px;
+    height: 40px;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+.customer-review-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer-review-slider .slick-dots li {
+    list-style: none;
+    margin: 0 9px;
+}
+.customer-review-slider .slick-dots button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+.customer-review-slider .slick-dots li.slick-active button {
+    background-color: unset;
+    border-radius: unset;
+    background-image: url(/images/dots-slider.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
