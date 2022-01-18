@@ -45,12 +45,15 @@
 }
 
 .products__container {
+    padding-top: 121px;
     padding-bottom: 98px;
     background-color: var(--secondary-text-color);
     @media screen and (min-width: 768px) {
+        padding-top: 122px;
         padding-bottom: 112px;
     }
     @media screen and (min-width: 1280px) {
+        padding-top: 127px;
         padding-bottom: 119px;
     }
 }
@@ -137,10 +140,8 @@
     margin-top: 24px;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
-        
     }
     @media screen and (min-width: 1280px) {
-        
     }
 }
 
@@ -154,23 +155,19 @@
     width: 249px;
     height: 252px;
     top: -113px;
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url('../images/products/ice1-mob-2x.png');
         background-size: contain;
-        }
+    }
     @media screen and (min-width: 768px) {
         content: '';
         background-image: url('../images/products/ice1-tab-1x.png');
         top: -103px;
         width: 220px;
         height: 226px;
-        @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: url('../images/products/ice1-tab-2x.png');
-        background-size: contain;
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url('../images/products/ice1-tab-2x.png');
+            background-size: contain;
         }
     }
     @media screen and (min-width: 1280px) {
@@ -179,11 +176,9 @@
         top: -210px;
         width: 335px;
         height: 335px;
-        @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: url('../images/products/ice1-2x.png');
-        background-size: contain;
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url('../images/products/ice1-2x.png');
+            background-size: contain;
         }
     }
 }
@@ -198,22 +193,18 @@
     width: 249px;
     height: 252px;
     top: -113px;
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url('../images/products/ice2-mob-2x.png');
         background-size: contain;
-        }
+    }
     @media screen and (min-width: 768px) {
         content: '';
         background-image: url('../images/products/ice2-tab-1x.png');
         width: 220px;
         height: 226px;
-        @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        background-image: url('../images/products/ice2-tab-2x.png');
-        background-size: contain;
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+            background-image: url('../images/products/ice2-tab-2x.png');
+            background-size: contain;
         }
     }
     @media screen and (min-width: 1280px) {
@@ -222,12 +213,10 @@
         top: -210px;
         width: 335px;
         height: 335px;
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             background-image: url('../images/products/ice2-2x.png');
             background-size: contain;
-            }
+        }
     }
 }
 
@@ -241,23 +230,19 @@
     width: 249px;
     height: 252px;
     top: -113px;
-    @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            background-image: url('../images/products/ice3-mob-2x.png');
-            background-size: contain;
-            }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+        background-image: url('../images/products/ice3-mob-2x.png');
+        background-size: contain;
+    }
     @media screen and (min-width: 768px) {
         content: '';
         background-image: url('../images/products/ice3-tab-1x.png');
         width: 220px;
         height: 226px;
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             background-image: url('../images/products/ice3-tab-2x.png');
             background-size: contain;
-            }
+        }
     }
     @media screen and (min-width: 1280px) {
         content: '';
@@ -265,12 +250,10 @@
         top: -210px;
         width: 335px;
         height: 335px;
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
+        @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
             background-image: url('../images/products/ice3-2x.png');
             background-size: contain;
-            }
+        }
     }
 }
 
