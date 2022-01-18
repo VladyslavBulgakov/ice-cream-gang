@@ -5,12 +5,12 @@
     padding-bottom: 160px;
 
     @media screen and (min-width: 768px) {
-        padding-top: 15px;
-        padding-bottom: 59px;
+        padding-top: 109px;
+        padding-bottom: 55px;
     }
 
     @media screen and (min-width: 1280px) {
-        padding-top: 84px;
+        padding-top: 175px;
         padding-bottom: 102px;
     }
 }
@@ -21,8 +21,8 @@
     url(../images/ellipse.png);
 
     background-position: 
-    bottom left 117px, 
-    bottom 75px left 36px;
+    bottom right 32px, 
+    bottom 75px right 2px;
 
     background-repeat: no-repeat;
 
