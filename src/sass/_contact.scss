@@ -1,5 +1,11 @@
 .contact-section {
     background-image: linear-gradient(to bottom, #ffffff 7%, #fff5f6 7%);
+    @media screen and (min-width: 1280px) {
+        background-image: linear-gradient(to bottom, #ffffff 10%, #fff5f6 10%);
+    }
+    @media screen and (min-width: 1280px) {
+        background-image: linear-gradient(to bottom, #ffffff 15%, #fff5f6 15%);
+    }
 }
 
 .contact-container {
@@ -7,11 +13,9 @@
     padding-bottom: 54px;
     @media screen and (min-width: 768px) {
         display: flex;
-        margin-top: 119px;
     }
     @media screen and (min-width: 1280px) {
         justify-content: center;
-        margin-top: 132px;
     }
 }
 
