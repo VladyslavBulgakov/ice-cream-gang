@@ -1,7 +1,13 @@
 header {
     background-color: #ffb8ca;
+}
+
+.header-logo {
     @media screen and (min-width: 768px) {
-        position: absolute;
+        margin-left: 19px;
+    }
+    @media screen and (min-width: 1280px) {
+        margin-left: 31px;
     }
 }
 
@@ -31,18 +37,18 @@ header {
 }
 
 .header-nav {
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 1279px) {
         padding-left: 20px;
     }
 }
 
 .header-nav__item {
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 1279px) {
         height: 42px;
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
     .header-nav__item {
         border-top: 1px solid #e18298;
         &:last-child {
@@ -52,7 +58,7 @@ header {
 }
 
 .header-nav__item:not(:last-child) {
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         margin-right: 35px;
     }
 }
@@ -65,13 +71,13 @@ header {
 
     color: #ffffff;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         font-size: 16px;
         line-height: 1.31;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .menu-toggle {
         display: none;
     }
@@ -80,9 +86,13 @@ header {
 .icon-menu {
     margin: 0px;
     margin-left: auto;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 291px;
+    }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
     .icon-menu-close {
         position: absolute;
         top: 0;
@@ -97,26 +107,26 @@ header {
     z-index: 2;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
     .menu-container {
         position: relative;
         padding-top: 60px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .menu-container {
-        width: 100%;
+        margin-left: 110px;
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
     .menu-container {
         background-color: #e17992;
         position: fixed;
         top: 0;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 254px;
         height: 100%;
         overflow-y: scroll;
         transform: translateX(100%);
@@ -128,7 +138,7 @@ header {
     transform: translateX(0);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1279px) {
     .menu-container {
         height: 100%;
         display: flex;
@@ -136,7 +146,7 @@ header {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .menu-container {
         display: flex;
         align-items: center;
@@ -144,7 +154,7 @@ header {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .header-nav__list {
         display: flex;
     }
@@ -169,7 +179,7 @@ header {
     border-radius: 22px;
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         margin: 0;
         width: 159px;
         height: 44px;
@@ -186,7 +196,7 @@ header {
     @media screen and (max-width: 767px) {
         display: none;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         display: none;
     }
 }
@@ -209,7 +219,7 @@ header {
 }
 
 .menu-container {
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         display: flex;
         flex-direction: row-reverse;
     }
