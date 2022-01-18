@@ -2,6 +2,7 @@
     --primary-text-color: #907e82;
     --secondary-text-color: #ffffff;
     --third-text-color: #000000;
+    --fourth-text-color: #ffa5ba;
     --accent-color: #d41443;
 
     --main-bcg-color: #ffb8ca;
@@ -15,6 +16,9 @@
     --milkshake-bcg: #c2e297;
 
     --title-ff: 'Titan One';
+
+    --first-btn-color: #d41342;
+    --second-btn-color: #ffffff;
 }
 
 body {
@@ -92,4 +96,14 @@ button {
     margin: 0;
 
     border: transparent;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.link {
+    text-decoration: none;
 }
