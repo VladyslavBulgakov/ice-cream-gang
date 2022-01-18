@@ -96,6 +96,7 @@
     }
     @media screen and (min-width: 1280px) {
         width: 463px;
+        margin: 50px 0 0 74px;
     }
 }
 
@@ -141,6 +142,10 @@
     line-height: 1.28;
     color: var(--accent-color);
     margin-top: 47px;
+    &:hover,
+    &:focus {
+        background: #ecebeb;
+    }
     @media screen and (min-width: 768px) {
         font-size: 16px;
         line-height: 1.31;
