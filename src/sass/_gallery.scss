@@ -63,98 +63,98 @@
 
     @media screen and (min-width: 768px) {
         max-width: 177px;
-        
-    @media screen and (min-width: 1280px) {
-        max-width: 570px;
-    }
-}
 
-.gallery__item-3-2 {
-    max-width: 37px;
-
-
-   @media screen and (min-width: 768px) {
-        max-width: 85px;}
-        
-    @media screen and (min-width: 1280px) {
-        max-width: 90px;
-    }
-}
-
-.gallery__item-4 {
-    position: relative;
-    top: 20px;
-    max-width: 40px;
-
-    @media screen and (min-width: 768px) {
-        position: relative;
-        top: 44px;
-        max-width: 87px;
+        @media screen and (min-width: 1280px) {
+            max-width: 570px;
+        }
     }
 
-    @media screen and (min-width: 1280px) {
-        top: 100px;
-        max-width: 270px;
-    }
-}
+    .gallery__item-3-2 {
+        max-width: 37px;
 
-.gallery__item-5 {
-    position: relative;
-    top: 12px;
-    max-width: 39px;
-    @media screen and (min-width: 768px) {
-        position: relative;
-        top: 55px;
-        max-width: 85px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        top: 50px;
-        max-width: 265px;
-    }
-}
-
-.gallery__item-6 {
-    position: relative;
-    top: 30px;
-    max-width: 40px;
-    @media screen and (min-width: 768px) {
-        position: relative;
-        top: 70px;
-        max-width: 85px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        top: 130px;
-        max-width: 270px;
-    }
-}
-
-.gallery__item__img {
-    margin: 2px;
-    @media screen and (min-width: 768px) {
-       margin: 3px;
-
-    }
-
-    @media screen and (min-width: 1280px) {
-        margin: 5px;
-    }
-    &:hover,
-    &:focus {
-        animation-name: spin;
-        animation-duration: 1s;
-        animation-timing-function: linear;
-        animation-iteration-count: 1s;
-    }
-
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
+        @media screen and (min-width: 768px) {
+            max-width: 85px;
         }
 
-        100% {
-            transform: rotate(360deg);
+        @media screen and (min-width: 1280px) {
+            max-width: 90px;
+        }
+    }
+
+    .gallery__item-4 {
+        position: relative;
+        top: 20px;
+        max-width: 40px;
+
+        @media screen and (min-width: 768px) {
+            position: relative;
+            top: 44px;
+            max-width: 87px;
+        }
+
+        @media screen and (min-width: 1280px) {
+            top: 100px;
+            max-width: 270px;
+        }
+    }
+
+    .gallery__item-5 {
+        position: relative;
+        top: 12px;
+        max-width: 39px;
+        @media screen and (min-width: 768px) {
+            position: relative;
+            top: 55px;
+            max-width: 85px;
+        }
+
+        @media screen and (min-width: 1280px) {
+            top: 50px;
+            max-width: 265px;
+        }
+    }
+
+    .gallery__item-6 {
+        position: relative;
+        top: 30px;
+        max-width: 40px;
+        @media screen and (min-width: 768px) {
+            position: relative;
+            top: 70px;
+            max-width: 85px;
+        }
+
+        @media screen and (min-width: 1280px) {
+            top: 130px;
+            max-width: 270px;
+        }
+    }
+
+    .gallery__item__img {
+        margin: 2px;
+        @media screen and (min-width: 768px) {
+            margin: 3px;
+        }
+
+        @media screen and (min-width: 1280px) {
+            margin: 5px;
+        }
+        &:hover,
+        &:focus {
+            animation-name: spin;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1s;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
     }
 }
