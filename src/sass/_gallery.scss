@@ -9,7 +9,7 @@
         background-image: linear-gradient(to bottom, #fff5f6 37%, #ffffff 37%);
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
         min-width: 1280px;
         height: 448px;
         background-image: linear-gradient(to bottom, #fff5f6 37%, #ffffff 37%);
@@ -41,7 +41,7 @@
 .gallery__item-2 {
     position: relative;
     top: 17px;
-max-width: 39px;
+    max-width: 39px;
     display: flex;
     flex-direction: column;
     @media screen and (min-width: 780px) {
@@ -63,23 +63,23 @@ max-width: 39px;
 
     @media screen and (min-width: 780px) {
         max-width: 177px;
-        
-    @media screen and (min-width: 1200px) {
-        max-width: 570px;
-    }
+
+        @media screen and (min-width: 1200px) {
+            max-width: 570px;
+        }
     }
 }
 
 .gallery__item-3-2 {
     max-width: 37px;
 
-   @media screen and (min-width: 780px) {
-        max-width: 85px;}
-        
+    @media screen and (min-width: 780px) {
+        max-width: 85px;
+    }
+
     @media screen and (min-width: 1200px) {
         max-width: 90px;
     }
-
 }
 
 .gallery__item-4 {
@@ -111,7 +111,8 @@ max-width: 39px;
 
     @media screen and (min-width: 1200px) {
         top: 50px;
-        max-width: 265px;   }
+        max-width: 265px;
+    }
 }
 
 .gallery__item-6 {
@@ -133,7 +134,7 @@ max-width: 39px;
 .gallery__item__img {
     margin: 2px;
     @media screen and (min-width: 780px) {
-       margin: 3px;
+        margin: 3px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -145,15 +146,15 @@ max-width: 39px;
         animation-duration: 1s;
         animation-timing-function: linear;
         animation-iteration-count: 1s;
-      }
-      
-      @keyframes spin {
+    }
+
+    @keyframes spin {
         0% {
-          transform: rotate(0deg);
+            transform: rotate(0deg);
         }
-      
+
         100% {
-          transform: rotate(360deg);
+            transform: rotate(360deg);
         }
-      }
+    }
 }
