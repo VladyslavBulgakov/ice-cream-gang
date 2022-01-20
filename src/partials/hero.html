@@ -1,17 +1,46 @@
-<section class="hero overlay">
-    <div class="container">
-        <h1 class="hero-title">ice cream made with
-            <span class="hero-title-text">passion</span>
-        </h1>
-        <ul class="hero__item">
-            <li class="hero__list">
-                <button type="button" class="hero-button">Products</button>
-            </li>
-            <li class="hero__list">
-                <button type="button" class="hero-button-second">How it’s made?</button>
-            </li>
-        </ul>
-        <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et</p>
+<section class="hero" >
+<div class="container hero__container">
+        <img class="hero-icecream-img" src="images/hero/icecream-mob-2x.png" 
+         srcset="images/hero/icecream-tab-2x.png 1x, images/hero/icecream-desk-2x.png 2x" alt="Ice-cream">
+        <img class="hero-girl-img" src="images/hero/girl-tab-2x.png" 
+         srcset="images/hero/girl-tab-2x.png 1x, images/hero/girl-desk-2x.png" alt="Girl eats ice-cream">
+
+    <div class="hero-title-box">
+       <h1 class="hero-title">ice cream
+        made with
+       <span class="hero-title-passion">passion</span> </h1>
+       <ul class="hero-btn-list">
+           <li class="hero-btn-item"> <a chref=""> <button class="hero-button-products" type="button">Products</button> </a> </li>
+           <li class="hero-btn-item"> <a  href=""> <button class="hero-button-howits" type="button">How it’s made?</button> </a> </li>
+       </ul>
+   </div>
+
+   <div class="hero-milk-box">
+       <img class="hero-milk-img" src="images/hero/milk-tab-2x.png" 
+       srcset="images/hero/milk-tab-2x.png 1x, images/hero/milk-desk-2x.png 2x" alt="">
+       <div class="hero-text">
+           <p class="hero-text-block">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et<span class="dot">...</span><span class="cont">erisque enim ligula venenatis dolor.</span>
+           </p>
+           <button data-tooltip="Read More" type="button" value="Read more" class="hero-milk-box__button-circle button-circle button-circle--small">
+               <svg class="svg-arrow" width="11" height="9">
+                   <use href="images/icons.svg#icon-arrow-icon"></use>
+               </svg>
+           </button>
+       </div>
     </div>
+
+           <ul class="hero-numbers-list">
+               <li class="hero-numbers-item">
+                   <span class="hero-numbers">16</span>
+                   <span class="hero-numbers-label">cafe</span>
+               </li>
+               <li class="hero-numbers-item">
+                <span class="hero-numbers">23</span>
+                <span class="hero-numbers-label">food trucks</span>
+               </li>
+           </ul>
+       
+</div>
 </section>
