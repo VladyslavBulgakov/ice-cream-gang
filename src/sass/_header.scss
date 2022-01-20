@@ -5,13 +5,31 @@ header {
     width: 100%;
 }
 
-.header-logo {
+.logo {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+
     @media screen and (min-width: 768px) {
         margin-left: 19px;
     }
+
     @media screen and (min-width: 1280px) {
         margin-left: 31px;
     }
+}
+
+.logo-icon {
+    width: 50px;
+}
+.logo-label {
+    margin-left: 14px;
+    font-family: Titan One;
+    font-size: 26px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #d41443;
 }
 
 .header__container {
@@ -48,6 +66,8 @@ header {
 .header-nav__item {
     @media screen and (max-width: 1279px) {
         height: 42px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -94,6 +114,7 @@ header {
 .icon-menu {
     margin: 0px;
     margin-left: auto;
+    z-index: 1;
 
     @media screen and (min-width: 768px) {
         margin-left: 291px;
@@ -112,7 +133,7 @@ header {
 }
 
 .menu-container {
-    z-index: 2;
+    z-index: 11;
 }
 
 @media screen and (max-width: 1279px) {
