@@ -36,7 +36,7 @@
                     <br />
                     Уже съели две порции? Купите ещё одну, бустерную :)
                 </p>
-                <button type="button" class="about__button">
+                <button type="button" class="about__button" data-modal-open>
                     Read more
                     <svg class="about__icon" width="10px" height="10px">
                         <use href="images/about/icons.svg#icon-button-vector"></use>
@@ -46,6 +46,24 @@
         </div>
     </div>
 </section>
+
+<!---------------------------------- MODAL ---------------------------------->
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>X</button>
+
+        <!-- MODAL FORM -->
+        <p class="modal-form-title">
+            На этом месте могла бы быть<br />
+            ваша реклама!
+        </p>
+        <form class="modal-form">
+            <img src="images/about/mr-bean.png" alt="мистер бин" />
+        </form>
+    </div>
+</div>
+
+<script src="js/modal-about.js"></script>
 
 <!---------------------------------- ADVANTAGES ---------------------------------->
 <section class="advantages">
